@@ -66,8 +66,3 @@ const planets = {
 }
 
 exports.default = planets;
-
-// Planets: 
-	// Length of Day: https://spaceplace.nasa.gov/days/en/
-	// Length of Year: https://spaceplace.nasa.gov/years-on-other-planets/sp/
-// Moons: https://solarsystem.nasa.gov/moons/
