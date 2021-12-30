@@ -1,9 +1,10 @@
 # Planets API
-Simple RESTful API for Solar System Planets.
+Simple RESTful API for our Solar System Planets.
 
 ### How to Use
 - For all planets data, hit at `/all` endpoint.
-- For specific planet data, hit at `/<planet-name>` endpoint. For example `/earth`. (Planet name in lowercase)
+- For specific planet data, hit at `/<planet-name>` endpoint. For example `/earth`. 
+- Planet name is not case-sensitive. `/urANUS` is a valid endpoint.
 
 ### Data Sources
 - For data related to Planets
