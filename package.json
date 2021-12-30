@@ -1,7 +1,7 @@
 {
 	"name": "planets-api",
 	"version": "1.0.0",
-	"description": "",
+	"description": "REST API for planets of our solar system",
 	"main": "index.js",
 	"scripts": {
 		"start": "node .",
@@ -10,6 +10,7 @@
 	"keywords": [
 		"planet",
 		"planets",
+		"rest",
 		"api",
 		"json"
 	],
