@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planets API</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #333;
+      color: #eee;
+      font-size: 1.5rem;
+      font-family: monospace;
+      padding: 2em;
+    }
+
+    main {
+      display: grid;
+      gap: 1em;
+    }
+
+    a {
+      text-decoration: underline;
+      color: lightsteelblue;
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <main>
+      <p>For all planets data go to <a href="/all">/all endpoint</a></p>
+      <p>
+        For specific planet data go to
+        <a href="/earth">/{planet-name} endpoint</a>
+      </p>
+      <p>
+        To know more, jump to
+        <a href="https://github.com/w3bdev1/planets-api">GitHub</a>
+      </p>
+    </main>
+  </body>
+</html>
