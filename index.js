@@ -1,3 +1,4 @@
+const path = require("path");
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
@@ -21,6 +22,10 @@ mongoose
   .catch((err) => console.log("Could not connect :(", err));
 
 // Routes
+app.get("/", (_, res) => {
+  res.sendFile(path.join(__dirname, "/views/index.html"));
+});
+
 app.get("/all", async (_, res) => {
   try {
     const data = await Planet.find();
