@@ -27,6 +27,10 @@ const planetSchema = new Schema({
     type: String,
     required: true,
   },
+  tempC: {
+    type: Number,
+    required: true,
+  },
 });
 
 const Planet = mongoose.model("planet", planetSchema);
