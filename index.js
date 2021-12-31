@@ -2,7 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const Planet = require("./models/planet");
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 // Express app
 const app = express();
