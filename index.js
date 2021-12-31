@@ -1,5 +1,6 @@
 const path = require("path");
 const express = require("express");
+const cors = require("cors");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const Planet = require("./models/planet");
@@ -22,7 +23,7 @@ mongoose
   .catch((err) => console.log("Could not connect :(", err));
 
 // Routes
-app.get("/", (_, res) => {
+app.get("/", cors(), (_, res) => {
   res.sendFile(path.join(__dirname, "/views/index.html"));
 });
 
@@ -38,7 +39,7 @@ app.get("/all", async (_, res) => {
   }
 });
 
-app.get("/:planet", async (req, res) => {
+app.get("/:planet", cors(), async (req, res) => {
   try {
     const data = await Planet.findOne({
       slug: req.params.planet.toLowerCase(),
