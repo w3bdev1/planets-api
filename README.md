@@ -1,7 +1,7 @@
 # Planets API
 Simple RESTful API for our Solar System Planets.
 
-Live URL: https://planet5.herokuapp.com
+Live URL: https://plan3ts.onrender.com
 
 ### How to Use
 - For all planets data, hit at `/all` endpoint.
