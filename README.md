@@ -18,6 +18,6 @@ Live URL: https://planet5.herokuapp.com
 ### FAQs
 *Why only daytime temperature for Mercury?*
 - The temperature (tempC) property was originally thought to be taken as average temperature.
-- But unlike other planets, for Mercury the temperature is so huge (430°C during the day, -180°C at night), average value would lose the extremeness.
-- I also checked [another API](https://api.le-systeme-solaire.net/rest/bodies/mercury) which also outputs only gives daytime temperature of Mercury. So I also stayed with it.
+- But unlike other planets, for Mercury the temperature range is so huge (430°C during the day, -180°C at night), average value would lose the extremeness.
+- I also checked [another API](https://api.le-systeme-solaire.net/rest/bodies/mercury) which also outputs only daytime temperature of Mercury. So I also stayed with it.
 - If you have better solution, a PR is appreciated.
